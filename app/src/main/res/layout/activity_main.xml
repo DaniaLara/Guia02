@@ -11,6 +11,7 @@
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/a3"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -24,6 +25,7 @@
             android:textColor="@color/white"
             android:textSize="26sp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/txtTitulo"
             android:layout_width="wrap_content"
@@ -40,10 +42,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@android:color/holo_red_dark"
+            android:backgroundTint="#FF5722"
             android:text="Agregar persona"
+            android:textColor="@color/black"
             android:textSize="18sp"
-            android:textColor="@color/white"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -56,9 +58,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@android:color/holo_red_dark"
+            android:backgroundTint="#FF5722"
             android:text="Mostrar lista"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -72,20 +74,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="18sp"
-            android:backgroundTint="@android:color/holo_red_dark"
+            android:backgroundTint="#FF5722"
             android:text="Acerca de: "
-            android:textColor="@color/white"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imagen2"
-            android:layout_width="130dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:scaleType="fitCenter"
-            />
+
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>

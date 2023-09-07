@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp">
+    android:layout_margin="16dp"
+    android:background="@drawable/a2">
 
     <TextView
-        android:id="@+id/txvNombre"
+        android:id="@+id/texNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edtNombre"
+        android:id="@+id/EtexNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -30,10 +30,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txvNombre" />
+        app:layout_constraintTop_toBottomOf="@id/texNombre" />
 
     <TextView
-        android:id="@+id/txvApellido"
+        android:id="@+id/texApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -42,10 +42,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtNombre" />
+        app:layout_constraintTop_toBottomOf="@id/EtexNombre" />
 
     <EditText
-        android:id="@+id/edtApellido"
+        android:id="@+id/EtexApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -55,10 +55,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txvApellido" />
+        app:layout_constraintTop_toBottomOf="@id/texApellido" />
 
     <TextView
-        android:id="@+id/txvEdad"
+        android:id="@+id/texEdad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -67,10 +67,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtApellido" />
+        app:layout_constraintTop_toBottomOf="@id/EtexApellido" />
 
     <EditText
-        android:id="@+id/edtEdad"
+        android:id="@+id/EtexEdad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -80,10 +80,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txvEdad" />
+        app:layout_constraintTop_toBottomOf="@id/texEdad" />
 
     <TextView
-        android:id="@+id/txvCorreo"
+        android:id="@+id/texCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -92,10 +92,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtEdad" />
+        app:layout_constraintTop_toBottomOf="@id/EtexEdad" />
 
     <EditText
-        android:id="@+id/edtCorreo"
+        android:id="@+id/EtexCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -105,19 +105,19 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txvCorreo" />
+        app:layout_constraintTop_toBottomOf="@id/texCorreo" />
 
     <Button
-        android:id="@+id/btnProcesar"
+        android:id="@+id/GOProcesar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/holo_red_dark"
-        android:text="Procesar"
-        android:textColor="@color/white"
+        android:backgroundTint="#FF5722"
+        android:text="Procesar Datos"
+        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtCorreo" />
+        app:layout_constraintTop_toBottomOf="@id/EtexCorreo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

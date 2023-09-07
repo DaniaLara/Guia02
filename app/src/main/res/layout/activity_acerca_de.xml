@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
 
 
+        android:background="@drawable/a1"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp">
@@ -41,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
-            android:text="Roberto Francisco Canales Zepeda\n"
+            android:text="DANIA LISETH LARA ARGUETA\n"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -61,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
-            android:text="CZ20-I04-001\n"
+            android:text="LA20-I04-001\n"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -84,12 +85,7 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="70dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:scaleType="fitCenter"/>
+
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
